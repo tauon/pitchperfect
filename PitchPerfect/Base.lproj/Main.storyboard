@@ -18,24 +18,24 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Z09-BE-5IX">
-                                <rect key="frame" x="80.333333333333329" y="370.66666666666669" width="253.33333333333337" height="155.00000000000006"/>
+                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Z09-BE-5IX">
+                                <rect key="frame" x="-78" y="163" width="570" height="570"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" secondItem="Z09-BE-5IX" secondAttribute="height" multiplier="49:30" id="IRD-EO-IRc"/>
+                                    <constraint firstAttribute="width" secondItem="Z09-BE-5IX" secondAttribute="height" multiplier="1:1" id="IRD-EO-IRc"/>
                                 </constraints>
                                 <state key="normal" image="RecordButton"/>
                                 <connections>
                                     <action selector="recordAudio:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rNh-WW-6gt"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tap to Record" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PD4-t1-MkP">
-                                <rect key="frame" x="153.66666666666666" y="533" width="106.99999999999997" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" text="Tap to Record" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PD4-t1-MkP">
+                                <rect key="frame" x="153.66666666666663" y="733" width="106.99999999999997" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lkH-ZF-grZ">
-                                <rect key="frame" x="175" y="562" width="64" height="64"/>
+                                <rect key="frame" x="175" y="762" width="64" height="64"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="64" id="H1J-Xa-dpe"/>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="64" id="QTl-Aj-1f5"/>
@@ -52,7 +52,8 @@
                             <constraint firstItem="lkH-ZF-grZ" firstAttribute="top" secondItem="PD4-t1-MkP" secondAttribute="bottom" constant="8" id="6QB-XZ-hWP"/>
                             <constraint firstItem="Z09-BE-5IX" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="IVq-q4-tsI"/>
                             <constraint firstItem="lkH-ZF-grZ" firstAttribute="centerX" secondItem="PD4-t1-MkP" secondAttribute="centerX" id="RQC-Sr-axV"/>
-                            <constraint firstItem="PD4-t1-MkP" firstAttribute="top" secondItem="Z09-BE-5IX" secondAttribute="bottom" constant="7.3333333333333712" id="b6s-pJ-VhO"/>
+                            <constraint firstItem="PD4-t1-MkP" firstAttribute="top" secondItem="Z09-BE-5IX" secondAttribute="bottom" id="b6s-pJ-VhO"/>
+                            <constraint firstItem="Z09-BE-5IX" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="75" id="dCf-a7-KiF"/>
                             <constraint firstItem="PD4-t1-MkP" firstAttribute="centerX" secondItem="Z09-BE-5IX" secondAttribute="centerX" id="n75-iv-aIw"/>
                             <constraint firstItem="Z09-BE-5IX" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="nW5-az-dqP"/>
                         </constraints>
